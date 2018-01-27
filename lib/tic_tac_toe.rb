@@ -45,16 +45,11 @@ def turn(board)
   number = gets.strip
   index = input_to_index(number)
 
-<<<<<<< HEAD
+
 
   if valid_move?(board, index)
     character = current_player(board)
     move(board, index, character)
-=======
-  if valid_move?(board, index)
-    move(board, index, character = "X" || "O")
->>>>>>> cb91c2093f89a33a6508523ef6dd77352352c5d0
-    display_board(board)
   else
     turn(board)
   end
