@@ -14,9 +14,9 @@ end
 
 def input_to_index(value)
 
-    #value.to_i - 1
-    position = value.to_i
-    position - 1
+    value.to_i - 1
+    #position = value.to_i
+    #position - 1
 
 end
 
