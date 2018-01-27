@@ -86,7 +86,6 @@ end
 
 def draw?(board)
 
-<<<<<<< HEAD
    !won?(board) && full?(board)
 
 end
