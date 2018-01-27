@@ -116,13 +116,5 @@ def play(board)
     puts "Congratulations #{winner}!"
   elsif draw?(board)
     puts "Cat's Game!"
-=======
-  if !won?(board) && full?(board)
-    true
-  elsif (!won?(board) && !full?(board)) || won?(board)
-    false
-  else
-    nil
->>>>>>> cb91c2093f89a33a6508523ef6dd77352352c5d0
-  end
+
 end
